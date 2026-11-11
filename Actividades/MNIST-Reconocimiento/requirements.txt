@@ -1,0 +1,7 @@
+# Versiones directas verificadas en Python 3.12 / WSL (CPU, sin CUDA).
+tensorflow-cpu==2.20.0
+numpy==2.5.4
+Pillow==11.3.0
+opencv-python-headless==4.13.0.92
+gradio==5.50.0
+pytest==9.2.0
