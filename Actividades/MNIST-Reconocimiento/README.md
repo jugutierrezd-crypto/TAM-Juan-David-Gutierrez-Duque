@@ -1,5 +1,23 @@
 # MNIST: entrenamiento y reconocimiento local de fotografías
+# Reconocimiento de Dígitos Manuscritos mediante Machine Learning
 
+**Asignatura:** Teoría de Aprendizaje de Máquinas
+
+**Integrantes:**
+- Juan David Gutiérrez Duque
+- Geronimo Maya Diaz
+
+**Proyecto:** Clasificación de dígitos manuscritos utilizando redes neuronales convolucionales (CNN), procesamiento digital de imágenes y análisis estadístico.
+
+**Herramientas:** Python, TensorFlow, Keras, OpenCV y Gradio.
+
+---
+
+## Descripción del proyecto
+
+Este proyecto implementa un sistema de inteligencia artificial capaz de clasificar dígitos manuscritos del 0 al 9 utilizando el conjunto de datos MNIST.
+
+También incorpora herramientas de preprocesamiento para analizar imágenes externas, visualización de predicciones y evaluación del desempeño del modelo.
 El proyecto conserva `scratchpad.ipynb` y el modelo existente `models/mnist.keras` sin modificar. Ya hay historial en `resultados/training.json` (exactitud de test registrada: 96,51 % en MNIST, no en fotografías). La interfaz diagnostica fotos localmente; nunca inicia entrenamiento ni crea enlaces públicos.
 
 ## 1. Preparar WSL y VS Code
